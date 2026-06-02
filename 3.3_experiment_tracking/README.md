@@ -1,6 +1,6 @@
 # Session 3.3 Experiment Tracking
 
-**Date:** Wednesday, June 25, 2025
+**Date:** Wednesday, June 24, 2026
 
 **Summary**: We will cover tools for tracking and organizing ML and DL experiments.
 
