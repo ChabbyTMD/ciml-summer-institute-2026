@@ -1,4 +1,4 @@
-# [DRAFT] TO BE UPDATED by Cindy (as of 06/02/26; [Document with text to be updated](https://docs.google.com/spreadsheets/d/1cp8tZEwrGb-ouRZRp1bkdKB7sh98a6cI/edit?gid=1828744526#gid=1828744526)
+# [DRAFT] TO BE UPDATED by Cindy (as of 06/02/26; [Document with text to be updated](https://docs.google.com/spreadsheets/d/1cp8tZEwrGb-ouRZRp1bkdKB7sh98a6cI/edit?gid=1828744526#gid=1828744526))
 # Preparing for the CIML Summer Institute
 
 **SESSION:** 0_preparation
