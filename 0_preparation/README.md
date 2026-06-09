@@ -32,6 +32,7 @@ In addition, for direct access via ssh,  if you have not already done so, you wi
 Be sure to choose the **“Globus”** option to login and use ACCESS CI as the organization **(not your home institution)** when you login. Once you are logged in on the page there should be a “Manage 2FA” button. If you click that you should get the option to read a QR code from your authenticator app to link into your account. **_(NOTE:  This change may take up to 15 minutes to update on the system)._**
 
 Full instructions can be found at: https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2 // [Visit for full istructions](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2)
+
 You can go to: https://passive.sdsc.edu
 
 ### Account access may be used:
