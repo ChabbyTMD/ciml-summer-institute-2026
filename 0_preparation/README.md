@@ -107,7 +107,7 @@ We also have a collection of mini-tutorials that you can access:
 
 Connection details were sent as a calendar invite to all CIML participants. You should have received an invite for the preparation day on Tuesday, June 16, 2026, from 9am - 11am (Pacific Time). If you did not receive this an invite, please contact cmw007@ucsd.edu. 
 
-Note: While Prep Day is a virtual event, the main CIML Summer Institute sessions (Tuesday, June 24 - Thursday, June 26) will be held in person and will not be available remotely.
+Note: While Prep Day is a virtual event, the main CIML Summer Institute sessions (Tuesday, June 23 - Thursday, June 25) will be held in person and will not be available remotely.
 
 [Back to Top](#top)
 <hr>
