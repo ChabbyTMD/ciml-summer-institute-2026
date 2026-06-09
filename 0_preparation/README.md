@@ -99,7 +99,7 @@ We also have a collection of mini-tutorials that you can access:
 
 ### Slack:  <a name="slack"></a>
 * We will also be using Slack as our main platform for announcements, where participants can communicate and ask for help. Download ([Windows](https://slack.com/downloads/windows), [MacOS](https://slack.com/downloads/mac), or [Linux](https://slack.com/downloads/linux)) and [get started](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users). and get started. Zoom chat will be disabled during the preparation day. Make sure to turn on your Slack notifications to receive alerts.
-See **"Preparation Information | CIML Summer Institute 2026"** email received for the link to join the Slack workspace for this institute.            
+ * See **"Preparation Information | CIML Summer Institute 2026"** email received for the link to join the Slack workspace for this institute.            
 
 ### Zoom:  <a name="zoom"></a>
 * We will be using Zoom for preparation day on Tuesday, June 16, 2026, from 9am - 11am (Pacific Time).
