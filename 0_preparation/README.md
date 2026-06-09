@@ -10,7 +10,7 @@ This section contains a set of detailed start-up instructions, beginning with se
 <a name="top">Contents
 * [Expanse Account Access](#accounts)
 * [Expanse User Guide](#expanse-guide)
-* [Large Language Model (LLM) Accounts](#llm-accounts)
+* [Large Language Model (LLM) Account](#llm-account)
 * [Basic Skills](#basic-skills)
 * [Computer Requirements](#comp-req)
 * [Github, Slack and Zoom](#Github-Slack-Zoom)
@@ -53,7 +53,7 @@ Note: if you have any difficulties getting set up, please contact Institute staf
   [Back to Top](#top)
 <hr>
   
-##  Large Language Model Accounts: <a name="llm-accounts"></a>
+##  Large Language Model Account: <a name="llm-account"></a>
 There will be a [Hugging Face](https://huggingface.co/) demo on day 3, if you would like to follow along, you can sign-up for a free [Hugging Face account](https://huggingface.co/join), unless you already have an account. This is completely optional. 
 
 [Back to Top](#top)
