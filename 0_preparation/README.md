@@ -19,7 +19,7 @@ This section contains a set of detailed start-up instructions, beginning with se
   * [Zoom](#zoom)
 
 ##  Expanse Account Access: <a name="accounts"></a>
-NOTE: **ACCESS ID profile must be up-to-date with the following:**
+ATTENTION: **ACCESS ID profile must be up-to-date with the following:**
  * U.S. Institutional Email and U.S. Institution (must match)
  * Country of Residence
 
