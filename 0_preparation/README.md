@@ -58,7 +58,14 @@ _Note: this is not required, but recommend, if you would follow along with the s
 <hr>
   
 ## Basic Skills <a name="basic-skills"></a>
-There are several basic skills needed in order to access and run jobs on HPC systems. There are two GitHub repositories with several mini-tutorials that you can access:
+There are several basic skills needed in order to access and run jobs on HPC systems. 
+
+## Interactive webinars and the COMPLECS training material
+We recommend that you look at our training webinars and hands-on materials: 
+* Interactive Videos: https://education.sdsc.edu/training/interactive/
+* COMPLECS training: https://github.com/orgs/sdsc-complecs/repositories
+
+## We also have a collection of mini-tutorials that you can access:
 * Basic HPC Linux Skills: https://github.com/sdsc-hpc-training-org/basic_skills
 * HPC Security:  https://github.com/sdsc-hpc-training-org/hpc-security
 * Connecting to Expanse: https://github.com/sdsc-hpc-training-org/hpc-security/blob/master/connecting-to-hpc-systems/connect-to-expanse.md
