@@ -4,16 +4,7 @@
 
 **Date:** June 16, 2026
 
-[Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html)  ( mpthomas  @  ucsd.edu ) 
-
-### Reading and Presentations:
-* **Lecture material:**
-   * Presentation Slides:
-   * Logistics Slides:
-
-### TASKS:
-
-N/A
+**Presented by:** Cindy Wong, Events Specialist (Logistics)
 
 [Back to Top](#top)
 
