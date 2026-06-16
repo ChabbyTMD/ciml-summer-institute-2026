@@ -1,8 +1,8 @@
 # Session 1.2: Getting Started with Expanse (CIML26 Prep Day)
 
-**Date:**  Tuesday, June 16, 2026
+### Date:  Tuesday, June 16, 2026
 
-**Presented by:** [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  ( mkandes  @  ucsd.edu )
+### Presented by: [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  (mkandes@sdsc.edu)
 
 
 
