@@ -1,13 +1,13 @@
 # Session 1.2: Getting Started with Expanse (CIML26 Prep Day)
 
-### Date:  Tuesday, June 16, 2026
+## Date:  Tuesday, June 16, 2026
 
-### Presented by: [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  (mkandes@sdsc.edu)
+## Presented by: [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  (mkandes@sdsc.edu)
 
-### Prerequisites:
+## Prerequisites:
 - [Session 0: Preparing for the CIML Summer Institute](https://github.com/ciml-org/ciml-summer-institute-2026/tree/main/0_preparation)
 
-### Hands-On Exercises
+## Hands-On Exercises
 
    * Exercise 1: Log onto Expanse
      Use your training account and password to log on, find out what project you are on, and list out your module environment.
@@ -115,4 +115,12 @@
        ```
        https://portal.expanse.sdsc.edu/training
        ```
+
+## Acknowledgements
+
+This material is based upon work supported by the [U.S. National Science Foundation](https://www.nsf.gov) under [Award No. CISE/OAC-2320934](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2320934). Any opinions,
+findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF.
+
+<img src='https://nsf.widen.net/content/josuwjrmy6/png/NSF_Official_logo_Med_Res_600ppi.png' alt='NSF Logo' width='250'/>
+
 [Back to Top](#top)
