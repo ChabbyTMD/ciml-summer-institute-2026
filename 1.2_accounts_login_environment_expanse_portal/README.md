@@ -8,6 +8,9 @@ Everything you need to know about getting your account setup to use Expanse next
 ## Prerequisites:
 - [Session 0: Preparing for the CIML Summer Institute](https://github.com/ciml-org/ciml-summer-institute-2026/tree/main/0_preparation)
 
+## Presentation Slides:
+- N/A
+
 ## Hands-On Exercises
 
    * Exercise 1: Log onto Expanse
@@ -116,10 +119,16 @@ Everything you need to know about getting your account setup to use Expanse next
        ```
        https://portal.expanse.sdsc.edu/training
        ```
+## Additional Reference(s):
+- N/A
+
+## About CIML
+
+The Cyberinfrastructure-Enabled Machine Learning (CIML) CyberTraining program at the San Diego Supercomputer Center (SDSC) is focused on teaching researchers and students best practices for effectively running artificial intelligence (AI), machine learning (ML), and deep learning (DL) applications on advanced cyberinfrastructure (CI) and high-performance computing (HPC) systems. 
 
 ## Acknowledgements
 
-This material is based upon work supported by the [U.S. National Science Foundation](https://www.nsf.gov) under [Award No. CISE/OAC-2320934](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2320934). Any opinions,
+This material is based upon work supported by the [U.S. National Science Foundation](https://www.nsf.gov) under Award Nos. [CISE/OAC-1928224](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1928224) and [CISE/OAC-2320934](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2017767). Any opinions,
 findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF.
 
 <img src='https://nsf.widen.net/content/josuwjrmy6/png/NSF_Official_logo_Med_Res_600ppi.png' alt='NSF Logo' width='250'/>
