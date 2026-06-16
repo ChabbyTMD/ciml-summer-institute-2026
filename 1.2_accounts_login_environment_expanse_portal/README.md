@@ -5,7 +5,7 @@
 ### Presented by: [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  (mkandes@sdsc.edu)
 
 ### Prerequisites:
-- 
+- [Session 0: Preparing for the CIML Summer Institute](https://github.com/ciml-org/ciml-summer-institute-2026/tree/main/0_preparation)
 
 ### Reading and Presentations:
 * **Lecture material:**
