@@ -66,7 +66,7 @@ Last login: Tue Jun 16 09:37:51 2026 from 132.249.233.139
 [mkandes@login01 ~]$
 ```
 
-If you cannot login, try to register (again) for 2FA. See the Expanse User Guide.
+If you cannot login, try to register (again) for 2FA. See the [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2).
 
 ### Exercise 3: Check your default SHELL on Expanse
 
