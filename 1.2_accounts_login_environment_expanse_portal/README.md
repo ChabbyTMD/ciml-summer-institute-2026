@@ -132,5 +132,3 @@ This material is based upon work supported by the [U.S. National Science Foundat
 findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF.
 
 <img src='https://nsf.widen.net/content/josuwjrmy6/png/NSF_Official_logo_Med_Res_600ppi.png' alt='NSF Logo' width='250'/>
-
-[Back to Top](#top)
