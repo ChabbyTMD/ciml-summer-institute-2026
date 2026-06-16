@@ -75,7 +75,7 @@ Next, please clone this GitHub repository to your HOME directory on Expanse.
 
 *Command*
 ```
-git clone https://github.com/ciml-org/ciml-summer-institute-2026
+git clone https://github.com/ciml-org/ciml-summer-institute-2026.git
 ```
 
 *Output*
