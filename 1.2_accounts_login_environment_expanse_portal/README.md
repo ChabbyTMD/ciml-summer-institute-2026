@@ -1,12 +1,8 @@
-# CIML Summer Institute:   Accounts, Login, Environments, Running Jobs, Logging into Expanse User Portal
-
-## Session: 1.2_accounts_login_environments_running_jobs_expanse_portal
+# CIML26 - Session 1.2: Getting Started with Expanse
 
 **Date:**  Tuesday, June 16, 2026
 
 **Presented by:** [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  ( mmkandes  @  ucsd.edu ) 
-
-**Title:** Expanse Webinar:  Accessing and Running Jobs on Expanse
 
 ### Reading and Presentations:
 * **Lecture material:**
