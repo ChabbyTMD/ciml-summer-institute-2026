@@ -297,6 +297,18 @@ srun-compute
 [mkandes@exp-6-05 ~]$
 ```
 
+*Command*
+```
+srun-nairr-gpu-shared
+```
+
+*Output*
+```
+[mkandes@login01 ~]$ srun-nairr-gpu-shared 
+srun: Requested partition configuration not available now
+srun: job 50938039 queued and waiting for resources
+```
+
 ### Exercise 9: Update your copy of the CIML26 GitHub repository
 
 ## Additional References
