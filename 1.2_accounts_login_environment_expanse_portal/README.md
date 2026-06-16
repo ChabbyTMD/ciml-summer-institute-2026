@@ -1,6 +1,6 @@
 # Session 1.2: Getting Started with Expanse
 
-<img src='https://www.sdsc.edu/_files/images/news_items/PR20250505_magnetism_expanse.jpg' width='85%' height='85%'/>
+<img src='https://www.sdsc.edu/_files/images/news_items/PR20250505_magnetism_expanse.jpg' width='90%' height='90%'/>
 
 Everything you need to know about getting your account setup to use Expanse next weeek at the CIML26 Summer Institute.
 
