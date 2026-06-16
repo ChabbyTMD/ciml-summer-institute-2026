@@ -144,6 +144,18 @@ ciml-summer-institute-2026  data  projects  scratch  scripts  software
 
 ### Exercise 6: Reconfigure your SHELL environment
 
+Navigate to the Session 1.2. material in the repo on Expanse. 
+
+*Output*
+```
+[mkandes@login01 ~]$ cd ciml-summer-institute-2026/
+[mkandes@login01 ciml-summer-institute-2026]$ cd 1.2_accounts_login_environment_expanse_portal/
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ ls
+backup-your-bash-env.sh  README.md                remove-ciml26-bash-env.sh
+load-ciml26-bash-env.sh  reload-your-bash-env.sh
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
+```
+
 ### Exercise 7: Create a symlink in your HOME directory to CIML26_DATA_DIR
 
 *Command*
