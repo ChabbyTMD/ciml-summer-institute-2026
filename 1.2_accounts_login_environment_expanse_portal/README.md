@@ -29,7 +29,7 @@ Everything you need to know about getting your account setup to use Expanse next
 
 ### Exercise 8: Test your new command aliases
 
-## Additional Reference(s)
+## Additional References
 - N/A
 
 ## About CIML
