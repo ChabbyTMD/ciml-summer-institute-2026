@@ -224,6 +224,20 @@ Last login: Tue Jun 16 09:44:54 2026 from 216.15.51.171
 [mkandes@login01 ~]$
 ```
 
+Once logged back in, check if you have the new environment available.
+
+*Command*
+```
+echo $CIML26_DATA_DIR
+```
+
+*Output*
+```
+[mkandes@login01 ~]$ echo $CIML26_DATA_DIR
+/cm/shared/examples/sdsc/ciml/2026
+[mkandes@login01 ~]$
+```
+
 ### Exercise 7: Create a symlink in your HOME directory to CIML26_DATA_DIR
 
 *Command*
