@@ -309,6 +309,14 @@ srun: Requested partition configuration not available now
 srun: job 50938039 queued and waiting for resources
 ```
 
+*Output*
+```
+[mkandes@login01 ~]$ squeue --me
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          50938039 nairr-gpu     bash  mkandes PD       0:00      1 (Job's QOS not permitted to use this partition (nairr-gpu-shared allows nairr-gpu-shared-normal not nairr-gpu-shared-eot))
+[mkandes@login01 ~]$
+```
+
 ### Exercise 9: Update your copy of the CIML26 GitHub repository
 
 ## Additional References
