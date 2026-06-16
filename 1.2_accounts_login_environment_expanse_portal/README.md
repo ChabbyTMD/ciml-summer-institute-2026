@@ -66,6 +66,8 @@ Last login: Tue Jun 16 09:37:51 2026 from 132.249.233.139
 [mkandes@login01 ~]$
 ```
 
+If you cannot login, try to register (again) for 2FA. See the Expanse User Guide.
+
 ### Exercise 3: Check your default SHELL on Expanse
 
 Once logged into Expanse either via the User Portal or SSH, please check your default SHELL.
