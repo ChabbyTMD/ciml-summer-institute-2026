@@ -4,7 +4,8 @@
 
 ### Presented by: [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  (mkandes@sdsc.edu)
 
-
+### Prerequisites:
+- 
 
 ### Reading and Presentations:
 * **Lecture material:**
