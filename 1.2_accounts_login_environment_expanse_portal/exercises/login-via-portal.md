@@ -1,6 +1,6 @@
 # Exercise 1: Log into Expanse via the Expanse User Portal
 
-<p align="center"><img src='../images/expanse-user-portal.png' width='67%' height='67%'/></p>
+<img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
 
 We'll start this session by logging into Expanse via the web-based **Expanse User Portal**.
 
@@ -8,11 +8,11 @@ We'll start this session by logging into Expanse via the web-based **Expanse Use
 
 If you click on the link above, your browser should open a new tab and be redirected to a Globus Log In page. There you will be asked to *Use your organizational login*. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
 
-<img src='../images/globus-login-org-access-ci.png' width='67%' height='67%'/>
+<img src='../images/globus-login-org-access-ci.png' width='100%' height='100%'/>
 
 If you happened to already be logged into Globus through your web broswer, you will not be prompted to select an organization. Instead, you'll see a list of your linked Globus identities. If you see your `@access-ci.org` identity, click on that one. If you do not see that one, either switch to a new browser window in private mode OR logout of your current Globus account, then attempt your Expanse User Portal login again.
 
-<img src='../images/globus-login-identities.png' width='67%' height='67%'/>
+<img src='../images/globus-login-identities.png' width='100%' height='100%'/>
 
 Next, you'll be redirected again to ACCESS-CI and be prompted with entering your *ACCCESS ID* and *ACCESS Password*. Enter your ACCESS ID (username) and password here, then click *LOGIN*. This is the 1st-factor in the two-factor (2FA) authentication process. If successful, you'll then be prompted with your 2nd-factor authentication step provided via Duo. Follow your default Duo option to complete the 2FA process. If you run into issues with the 2nd-factor process, you may try one of the *Other options* provided by Duo. 
 
