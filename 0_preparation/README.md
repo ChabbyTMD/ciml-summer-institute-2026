@@ -1,6 +1,4 @@
-# Preparing for the CIML Summer Institute
-
-**SESSION:** 0_preparation
+# Session 0: Preparing for the CIML Summer Institute
 
 ## Instructions
 You will get the most out of the CIML Summer Institute if you are prepared prior to the event. By brushing up on your knowledge of Linux and installing all necessary software on your laptop before the event, you’ll be able to focus your attention on the skills and topics that are most relevant to machine learning.
