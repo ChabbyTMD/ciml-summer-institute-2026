@@ -317,6 +317,22 @@ srun: job 50938039 queued and waiting for resources
 [mkandes@login01 ~]$
 ```
 
+*Command*
+```
+jupyter-shared-spark
+```
+
+*Output*
+```
+[mkandes@login01 ~]$ jupyter-shared-spark
+ERROR :: Command-line option --qos=normal-eot not recognized or not supported.
+ERROR :: galyleo_launch command failed.
+[mkandes@login01 ~]$ jupyter-compute-pytorch
+ERROR :: Command-line option --qos=normal-eot not recognized or not supported.
+ERROR :: galyleo_launch command failed.
+[mkandes@login01 ~]$
+```
+
 ### Exercise 9: Update your copy of the CIML26 GitHub repository
 
 ## Additional References
