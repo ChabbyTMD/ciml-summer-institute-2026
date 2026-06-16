@@ -1,8 +1,8 @@
-# Exercise 1: Log into Expanse via the Expanse User Portal
+# Exercise 1: Log into the Expanse User Portal
 
 <img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
 
-We'll start this session by logging into Expanse via the web-based **Expanse User Portal**.
+We'll start this session by logging into the web-based **Expanse User Portal**.
 
 - [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
 
