@@ -34,7 +34,7 @@ Everything you need to know about getting your account setup to use Expanse next
 
 ## About CIML
 
-The [Cyberinfrastructure-Enabled Machine Learning (CIML)](https://ciml.sdsc.edu) CyberTraining program at the [San Diego Supercomputer Center (SDSC)](https://www.sdsc.edu/) is focused on teaching researchers and students best practices for effectively running artificial intelligence (AI), machine learning (ML), and deep learning (DL) applications on advanced cyberinfrastructure (CI) and high-performance computing (HPC) systems. 
+The [Cyberinfrastructure-Enabled Machine Learning (CIML)](https://ciml.sdsc.edu) CyberTraining program at the [San Diego Supercomputer Center (SDSC)](https://www.sdsc.edu/) teaches researchers and students best practices for effectively running artificial intelligence (AI), machine learning (ML), and deep learning (DL) applications on advanced cyberinfrastructure (CI) and high-performance computing (HPC) systems. 
 
 ## Acknowledgements
 
