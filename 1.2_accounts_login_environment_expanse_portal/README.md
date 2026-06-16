@@ -37,6 +37,15 @@ Click on the Expanse Shell Access app to get a web-based interactive login shell
 
 ### Exercise 7: Create a symlink in your HOME directory to CIML26_DATA_DIR
 
+**Command**
+```
+ln -s /path/to/original /path/to/link
+```
+
+**Output**
+```
+```
+
 ### Exercise 8: Test your new command aliases
 
 ### Exercise 9: Update your copy of the CIML26 GitHub repository
