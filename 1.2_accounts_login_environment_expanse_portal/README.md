@@ -56,7 +56,31 @@ Do you have a BASH shell?
 
 ### Exercise 4: Check your allocations on Expanse
 
+Next, let's verify you are listed on the CIML26 allocation (**sds280**) for next week.
+
+*Command*
+```
+expanse-client user -p
+```
+
+*Output*
+```
+```
+
+If you are not listed on the allocation, please let us know.
+
 ### Exercise 5: Clone the CIML26 GitHub repository to your HOME directory
+
+Next, please clone this GitHub repository to your HOME directory on Expanse.
+
+*Command*
+```
+git clone https://github.com/ciml-org/ciml-summer-institute-2026
+```
+
+*Output*
+```
+```
 
 ### Exercise 6: Reconfigure your SHELL environment
 
