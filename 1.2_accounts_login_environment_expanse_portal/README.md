@@ -19,7 +19,7 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 
 We'll get started by logging into Expanse via the Open OnDemand-based (web-based) [Expanse User Portal](https://portal.expanse.sdsc.edu).
 
-You'll first be prompted to choose your organization. Choose ACCESS-CI, not your home institution. Then input your ACCESS-CI username and password.
+You'll first be prompted to choose your organization. Choose **ACCESS-CI** as your organizzation, not your home institution. Then input your ACCESS-CI username and password.
 
 Upon a successful login, you should be presented with the Expanse User Portal dashboard.
 
