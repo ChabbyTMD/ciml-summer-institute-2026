@@ -6,7 +6,7 @@ We'll start this session by logging into the web-based **Expanse User Portal** (
 
 - [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
 
-If you open the link above in a new browser tab, your browser should open a new tab and be redirected to a Globus Log In page (as shown below). There you will be asked to *Use your organizational login*. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
+If you open the link above in a new browser tab, it should be redirected to a **Globus Log In** page (as shown below). There you will be asked to *Use your organizational login*. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
 
 <img src='../images/globus-login-org-access-ci.png' width='100%' height='100%'/>
 
