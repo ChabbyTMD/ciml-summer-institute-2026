@@ -1,5 +1,7 @@
 # Session 1.2: Getting Started with Expanse
 
+<img src='https://today.ucsd.edu/news_uploads/PR20201208_Expanse_640x400.jpg' width='50%' height='50%'/>
+
 Everything you need to know about getting your account setup to use Expanse next weeek at the CIML26 Summer Institute.
 
 - Presented by: [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  (mkandes@sdsc.edu)
