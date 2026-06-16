@@ -1,10 +1,10 @@
-# Exercise 1: Log into Expanse via Open OnDemand
+# Exercise 1: Log into Expanse via the Expanse User Portal
 
-We'll start this session by logging into Expanse via the [Open OnDemand](https://www.openondemand.org/), web-based Expanse User Portal. To login, click on the following link:
+We'll start this session by logging into Expanse via the web-based **Expanse User Portal**, which is available at [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu). 
 
-[https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
+If you click on the link above, your browser should open a new tab and be redirected to a Globus Log In page. There you will be asked to *Use your organizational login*. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
 
-Your browser should be redirected to a Globus Log In page. There you will be asked to *Use your organizational login*. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
+
 
 If you happened to already be logged into Globus through your web broswer, you will not be prompted to select an organization. Instead, you'll see a list of your linked Globus identities. If you see your `@access-ci.org` identity, click on that one. If you do not see that one, either switch to a new browser window in private mode OR logout of your current Globus account, then attempt your Expanse User Portal login again.
 
