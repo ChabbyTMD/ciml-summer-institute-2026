@@ -1,6 +1,6 @@
 # Exercise 1: Log into Expanse via the Expanse User Portal
 
-<img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
+<img src='../images/expanse-user-portal.png' width='50%' height='50%'/>
 
 ![](../images/expanse-user-portal.png)
 
