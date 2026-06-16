@@ -34,7 +34,7 @@ alias srun-nairr-gpu-shared="srun --account=${CIML26_ACCOUNT} --reservation=${CI
 export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
 
 # Define galyleo-based Jupyter notebook session command aliases
-alias jupyter-shared-spark="galyleo launch --account ${CIML26_ACCOUNT} --reservation ${CIML26_RES_CPU} --partition shared --cpus 4 --memory 64 --time-limit 04:00:00 --env-modules singularitypro --sif ${CIML26_DATA_DIR}/spark-latest.sif --bind /expanse,/scratch,/cm --quiet"
+alias jupyter-shared-spark="galyleo launch --account ${CIML26_ACCOUNT} --reservation ${CIML26_RES_CPU} --partition shared --qos=${CIML26_QOS_CPU} --cpus 4 --memory 64 --time-limit 04:00:00 --env-modules singularitypro --sif ${CIML26_DATA_DIR}/spark-latest.sif --bind /expanse,/scratch,/cm --quiet"
 alias jupyter-nairr-gpu-shared-pytorch="galyleo launch --account ${CIML26_ACCOUNT} --partition nairr-gpu-shared --qos ${CIML26_QOS_GPU} --cpus 4 --memory 92 --gpus 1 --time-limit 04:00:00  --env-modules singularitypro --sif ${CIML_DATA_DIR}/ptl-cuda-12-1.sif --bind /expanse,/scratch,/cm --nv --quiet"
-alias jupyter-compute-pytorch="galyleo launch --account ${CIML26_ACCOUNT} --partition compute --cpus 128 --memory 242 --time-limit 04:00:00  --env-modules singularitypro --sif ${CIML_DATA_DIR}/ptl-cuda-12-1.sif --bind /expanse,/scratch,/cm --quiet"
+alias jupyter-compute-pytorch="galyleo launch --account ${CIML26_ACCOUNT} --partition compute --qos=${CIML26_QOS_CPU} --cpus 128 --memory 242 --time-limit 04:00:00  --env-modules singularitypro --sif ${CIML_DATA_DIR}/ptl-cuda-12-1.sif --bind /expanse,/scratch,/cm --quiet"
 alias jupyter-nairr-gpu-shared-llm="galyleo launch --account ${CIML26_ACCOUNT} --reservation ${CIML26_RES_GPU} --partition nairr-gpu-shared --qos ${CIML26_QOS_GPU} --cpus 8 --memory 96 --gpus 1 --time-limit 04:00:00 --sif ${CIML_DATA_DIR}/ollama-latest-expanse.sif --nv --bind /expanse,/scratch,/cm --quiet"
