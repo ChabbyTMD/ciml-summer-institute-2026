@@ -156,6 +156,37 @@ load-ciml26-bash-env.sh  reload-your-bash-env.sh
 [mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
 ```
 
+*Command*
+```
+chmod +x backup-your-bash-env.sh
+```
+
+*Output*
+```
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ chmod +x backup-your-bash-env.sh
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ ls
+backup-your-bash-env.sh  load-ciml26-bash-env.sh  README.md  reload-your-bash-env.sh  remove-ciml26-bash-env.sh
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
+```
+
+*Command*
+```
+./backup-your-bash-env.sh
+```
+
+*Command*
+```
+chmod +x load-ciml26-bash-env.sh
+```
+
+*Output*
+```
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ ./load-ciml26-bash-env.sh 
+.bashrc: OK
+.bash_profile: OK
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
+```
+
 ### Exercise 7: Create a symlink in your HOME directory to CIML26_DATA_DIR
 
 *Command*
