@@ -1,6 +1,6 @@
 # Exercise 1: Log into Expanse via the Expanse User Portal
 
-<img src='../images/expanse-user-portal.png' width='67%' height='67%'/>
+<p align="center"><img src='../images/expanse-user-portal.png' width='67%' height='67%'/></p>
 
 We'll start this session by logging into Expanse via the web-based **Expanse User Portal**, which is available at [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
 
