@@ -1,6 +1,6 @@
 # Session 1.2: Getting Started with Expanse
 
-<img src='https://today.ucsd.edu/news_uploads/PR20201208_Expanse_640x400.jpg' width='50%' height='50%'/>
+<img src='https://today.ucsd.edu/news_uploads/PR20201208_Expanse_640x400.jpg' width='75%' height='75%'/>
 
 Everything you need to know about getting your account setup to use Expanse next weeek at the CIML26 Summer Institute.
 
