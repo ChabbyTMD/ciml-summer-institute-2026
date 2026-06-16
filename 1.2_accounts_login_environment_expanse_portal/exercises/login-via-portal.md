@@ -2,7 +2,7 @@
 
 <img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
 
-We'll start this session by logging into the web-based **Expanse User Portal**.
+We'll start this session by logging into the web-based **Expanse User Portal** (as shown above).
 
 - [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
 
