@@ -7,21 +7,7 @@
 ### Prerequisites:
 - [Session 0: Preparing for the CIML Summer Institute](https://github.com/ciml-org/ciml-summer-institute-2026/tree/main/0_preparation)
 
-### Reading and Presentations:
-* **Lecture material:**
-   * Presentation Slides: Access, accounts, modules & Envs
-
-     ```
-     https://github.com/ciml-org/ciml-summer-institute-2025/blob/main/1.2_accounts_login_environment_expanse_portal/MThomas-CIML-SI25_Jun_17_2025-PrepDay_accts_login_envs_jobs.pdf
-     ```
-
-   * Source Code/Examples:
-
-     ```
-     https://github.com/sdsc-hpc-training-org/hpctr-examples
-     ```
-
-* **Exercises:**
+### Hands-On Exercies
 
    * Exercise 1: Log onto Expanse
      Use your training account and password to log on, find out what project you are on, and list out your module environment.
