@@ -79,6 +79,9 @@ echo $SHELL
 
 *Output*
 ```
+[mkandes@login01 ~]$ echo $SHELL
+/bin/bash
+[mkandes@login01 ~]$
 ```
 
 Do you have a BASH shell?
