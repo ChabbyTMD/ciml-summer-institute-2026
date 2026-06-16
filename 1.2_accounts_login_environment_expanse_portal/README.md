@@ -187,6 +187,43 @@ chmod +x load-ciml26-bash-env.sh
 [mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
 ```
 
+Now log out then back in ...
+
+*Output*
+```
+[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ exit
+logout
+Connection to login.expanse.sdsc.edu closed.
+mkandes@hardtack:~$ ssh mkandes@login.expanse.sdsc.edu
+(mkandes@login.expanse.sdsc.edu) TOTP code for mkandes: 291893
+(mkandes@login.expanse.sdsc.edu) TOTP code for mkandes: 294893
+Welcome to Bright release         9.0
+
+                                                         Based on Rocky Linux 8
+                                                                    ID: #000002
+
+--------------------------------------------------------------------------------
+
+                                 WELCOME TO
+                  _______  __ ____  ___    _   _______ ______
+                 / ____/ |/ // __ \/   |  / | / / ___// ____/
+                / __/  |   // /_/ / /| | /  |/ /\__ \/ __/
+               / /___ /   |/ ____/ ___ |/ /|  /___/ / /___
+              /_____//_/|_/_/   /_/  |_/_/ |_//____/_____/
+
+--------------------------------------------------------------------------------
+
+Use the following commands to adjust your environment:
+
+'module avail'            - show available modules
+'module add <module>'     - adds a module to your environment for this session
+'module initadd <module>' - configure module to be loaded at every login
+
+-------------------------------------------------------------------------------
+Last login: Tue Jun 16 09:44:54 2026 from 216.15.51.171
+[mkandes@login01 ~]$
+```
+
 ### Exercise 7: Create a symlink in your HOME directory to CIML26_DATA_DIR
 
 *Command*
