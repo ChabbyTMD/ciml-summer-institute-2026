@@ -4,8 +4,8 @@
 
 cd "${HOME}"
 
-cp .bashrc .bashrc.bak
-cp .bash_profile .bash_profile.bak
+cp -p .bashrc .bashrc.bak
+cp -p .bash_profile .bash_profile.bak
 
 chmod u-w .bashrc.bak
 chmod u-w .bash_profile.bak
