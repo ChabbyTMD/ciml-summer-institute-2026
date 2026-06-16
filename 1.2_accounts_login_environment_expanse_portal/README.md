@@ -7,7 +7,7 @@
 ### Prerequisites:
 - [Session 0: Preparing for the CIML Summer Institute](https://github.com/ciml-org/ciml-summer-institute-2026/tree/main/0_preparation)
 
-### Hands-On Exercies
+### Hands-On Exercises
 
    * Exercise 1: Log onto Expanse
      Use your training account and password to log on, find out what project you are on, and list out your module environment.
