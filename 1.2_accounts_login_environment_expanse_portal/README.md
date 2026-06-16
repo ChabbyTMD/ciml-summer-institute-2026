@@ -17,6 +17,8 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 
 ### Exercise 1: Log into Expanse via Open OnDemand
 
+We'll get started by logging into Expanse via the Open OnDemand-based [Expanse User Portal](https://portal.expanse.sdsc.edu).
+
 ### Exercise 2: Log into Expanse via SSH
 
 ### Exercise 3: Check your default SHELL on Expanse
