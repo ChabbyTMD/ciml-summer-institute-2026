@@ -1,9 +1,9 @@
-# Session 1.2: Getting Started with Expanse (CIML26 Prep Day)
+# Session 1.2: Getting Started with Expanse
 
 Everything you need to know about getting your account setup to use Expanse next weeek at the CIML26 Summer Institute.
 
 - Presented by: [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  (mkandes@sdsc.edu)
-- Date:  Tuesday, June 16, 2026
+- Date:  Tuesday, June 16, 2026 (CIML26 Prep Day)
 
 ## Prerequisites:
 - [Session 0: Preparing for the CIML Summer Institute](https://github.com/ciml-org/ciml-summer-institute-2026/tree/main/0_preparation)
