@@ -38,7 +38,7 @@ The [Cyberinfrastructure-Enabled Machine Learning (CIML)](https://ciml.sdsc.edu)
 
 ## Acknowledgements
 
-This material is based upon work supported by the [U.S. National Science Foundation](https://www.nsf.gov) under Award Nos. [CISE/OAC-1928224](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1928224) and [CISE/OAC-2320934](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2017767). Any opinions,
+This material is based upon work supported by the [U.S. National Science Foundation](https://www.nsf.gov) under Award Numbers [CISE/OAC-1928224](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1928224) and [CISE/OAC-2320934](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2017767). Any opinions,
 findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF.
 
 <img src='https://nsf.widen.net/content/josuwjrmy6/png/NSF_Official_logo_Med_Res_600ppi.png' alt='NSF Logo' width='250'/>
