@@ -17,10 +17,13 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 
 ### Exercise 1: Log into Expanse via Open OnDemand
 
-- **Step 1**: We'll get started by logging into Expanse via the Open OnDemand-based (web-based) [Expanse User Portal](https://portal.expanse.sdsc.edu).
-- **Step 2**: You'll first be prompted to choose your organization. Choose ACCESS-CI, not your home institution. Then input your ACCESS-CI username and password.
-- **Step 3**: Upon a successful login, you should be presented with the Expanse User Portal dashboard.
-- **Step 4**: Click on the Expanse Shell Access app to get a web-based interactive login shell. 
+We'll get started by logging into Expanse via the Open OnDemand-based (web-based) [Expanse User Portal](https://portal.expanse.sdsc.edu).
+
+You'll first be prompted to choose your organization. Choose ACCESS-CI, not your home institution. Then input your ACCESS-CI username and password.
+
+Upon a successful login, you should be presented with the Expanse User Portal dashboard.
+
+Click on the Expanse Shell Access app to get a web-based interactive login shell. 
 
 ### Exercise 2: Log into Expanse via SSH
 
