@@ -27,7 +27,32 @@ Click on the Expanse Shell Access app to get a web-based interactive login shell
 
 ### Exercise 2: Log into Expanse via SSH
 
+Next we'll test your direct SSH access to Expanse. Use your preferred SSH client to login.
+
+*Command*
+```
+ssh mkandes@login.expanse.sdsc.edu
+```
+
+
+*Output*
+```
+```
+
 ### Exercise 3: Check your default SHELL on Expanse
+
+Once logged into Expanse either via the User Portal or SSH, please check your default SHELL.
+
+*Command*
+```
+echo $SHELL
+```
+
+*Output*
+```
+```
+
+Do you have a BASH shell?
 
 ### Exercise 4: Check your allocations on Expanse
 
@@ -37,12 +62,12 @@ Click on the Expanse Shell Access app to get a web-based interactive login shell
 
 ### Exercise 7: Create a symlink in your HOME directory to CIML26_DATA_DIR
 
-**Command**
+*Command*
 ```
 ln -s /path/to/original /path/to/link
 ```
 
-**Output**
+*Output*
 ```
 ```
 
