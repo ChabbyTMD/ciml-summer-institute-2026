@@ -283,6 +283,20 @@ drwxr-xr-x  6 mkandes use300   24 Jun 15 18:06 .
 
 ### Exercise 8: Test your new command aliases
 
+*Command*
+```
+srun-compute
+```
+
+*Output*
+```
+[mkandes@login01 ~]$ srun-compute 
+[mkandes@exp-6-05 ~]$ squeue --me
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          50937645   compute     bash  mkandes  R       0:08      1 exp-6-05
+[mkandes@exp-6-05 ~]$
+```
+
 ### Exercise 9: Update your copy of the CIML26 GitHub repository
 
 ## Additional References
