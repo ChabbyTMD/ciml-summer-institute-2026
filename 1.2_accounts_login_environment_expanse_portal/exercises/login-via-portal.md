@@ -30,7 +30,7 @@ Upon a successful login, you should be presented with the *Expanse Portal* dashb
 
 <img src='../images/expanse-portal-shell.png' width='100%' height='100%'/>
 
-If the app fails drop you into a shell prompt on a login node, then close that browser tab and then navigate back to the main dashboard. Once there, select *Restart Web Server* from the *Help* drop-down menu (as shown below) before you try to access the app again.
+If it fails to drop you into a shell prompt on a login node, close that browser tab and navigate back to the main dashboard. Once there, select *Restart Web Server* from the *Help* drop-down menu (as shown below) before you try to access the shell app again.
 
 <img src='../images/expanse-portal-restart.png' width='100%' height='100%'/>
 
