@@ -10,7 +10,7 @@ When you open the link, your browser should be redirected to a Globus login page
 
 <img src='../images/globus-login.png' width='100%' height='100%'/>
 
-TAt the Globus login page, you will be asked to **Use your organizational login**. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
+At the Globus login page, you will be asked to **Use your organizational login**. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
 
 - Step 2: Select **ACCESS-CI (formerly XSEDE)** as your organizational login, then click *Continue*
 
