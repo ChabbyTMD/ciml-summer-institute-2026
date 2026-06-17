@@ -1,6 +1,6 @@
 ### Exercise 3: Check your default SHELL
 
-Once you've been able to login via the Expanse User Portal or via direct SSH access, check your default SHELL from the command-line.
+Once you've been able to login via the Expanse User Portal or direct SSH access, check your default `$SHELL` from the command-line.
 
 *Command*
 ```
