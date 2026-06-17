@@ -1,6 +1,6 @@
 # Exercise 2: Login via SSH
 
-Next we'll test your direct SSH access to Expanse. Here, please use your preferred SSH client to login. Your username will typically be the same as your **ACCESS ID (username)**. There are some cases where this may not be true. e.g., if your ACCESS ID already belongs to another user in the local SDSC account database. However, your password will always be your **ACCESS Password**.
+Next we'll test your direct SSH access to Expanse. Here, please use your preferred SSH client to login. In general, your local SDSC username on Expanse will be the same as your **ACCESS ID (username)**. There are some cases where this may not be true. e.g., if your ACCESS ID already belonged to another user in the local SDSC account database when the account was created. However, your password will *always* be your **ACCESS Password**.
 
 *Command*
 ```
