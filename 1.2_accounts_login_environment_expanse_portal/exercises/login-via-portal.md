@@ -1,4 +1,4 @@
-# Exercise 1: Log into the Expanse User Portal
+# Exercise 1: Login via the Expanse User Portal
 
 <img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
 
