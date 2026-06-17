@@ -4,11 +4,11 @@ Create a symlink in your `$HOME` directory to `$CIML26_DATA_DIR`. This will a us
 
 *Command*
 ```
-ln -s $CIML26_DATA_DIR ciml26-data
+ln -s $CIML26_DATA_DIR ciml-data
 ```
 
 *Output*
 ```
-[mkandes@login01 ~]$ ln -s $CIML26_DATA_DIR ciml26-data
+[mkandes@login01 ~]$ ln -s $CIML26_DATA_DIR ciml-data
 [mkandes@login01 ~]$
 ```
