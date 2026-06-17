@@ -2,7 +2,7 @@
 
 We'll start this session by logging into the web-based **Expanse User Portal** (as shown below).
 
-- Step 1: Open link in new **private** (or **Incognito**) window : [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
+- Step 1: Open link in new **private** (or **incognito**) browser window : [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
 
 <img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
 
