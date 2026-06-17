@@ -1,6 +1,6 @@
 # Exercise 2: Login via SSH
 
-Next we'll test your direct SSH access to Expanse. Here, please use your preferred SSH client to login.
+Next we'll test your direct SSH access to Expanse. Here, please use your preferred SSH client to login. Your username will typically be the same as your **ACCESS ID (username)**. However, your password will always be your **ACCESS Password**.
 
 *Command*
 ```
