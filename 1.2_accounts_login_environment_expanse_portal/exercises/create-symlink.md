@@ -1,6 +1,6 @@
-### Exercise 7: Create a symlink
+### Exercise 7: Create a symlink using a new environemnt variable
 
-Create a symlink in your `$HOME` directory to `$CIML26_DATA_DIR`. This will a useful shorthand reference to many of the files you will work with next week. 
+Create a symlink in your `$HOME` directory to `$CIML26_DATA_DIR`. This will a useful shorthand reference to many of the files you will work with next week.
 
 *Command*
 ```
