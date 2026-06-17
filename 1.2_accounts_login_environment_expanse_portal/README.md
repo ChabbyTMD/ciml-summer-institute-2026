@@ -20,51 +20,8 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 - [Exercise 3: Check your default SHELL](exercises/check-default-shell.md)
 - [Exercise 4: Check your allocation access](exercises/check-alloc-access.md)
 - [Exercise 5: Clone the GitHub repository](exercises/clone-github-repo.md)
-- [Exercise 6: Reconfigure your SHELL environment [TO BE UPDATED SOON](exercises/reconfig-shell-env.md)
-
-
-### Exercise 7: Create a symlink in your HOME directory to CIML26_DATA_DIR
-
-*Command*
-```
-ln -s $CIML26_DATA_DIR ciml26-data-dir
-```
-
-*Output*
-```
-[mkandes@login01 ~]$ ln -s $CIML26_DATA_DIR ciml26-data-dir
-[mkandes@login01 ~]$ ls 
-ciml26-data-dir  ciml-summer-institute-2026  data  projects  scratch  scripts  software
-[mkandes@login01 ~]$ ls -lahtr ciml26-data-dir/
-total 14G
--rw-r--r--  1 mkandes use300 931M Jun 22  2023 gene_info.gz
--rw-r--r--  1 mkandes use300 209M Jun 26  2023 BookReviews_1M.txt
--rw-r--r--  1 mkandes use300  77M Jun 26  2023 BookReviews_1M.txt.zip
--rw-r--r--  1 mkandes use300 1.1G Jun 26  2023 BookReviews_5M.txt
--rw-r--r--  1 mkandes use300 388M Jun 26  2023 BookReviews_5M.txt.zip
-drwxr-xr-x  5 mkandes use300    3 Jun 26  2023 catsVsDogs
--rw-r--r--  1 mkandes use300  62M Jun 26  2023 catsVsDogs.zip
--rw-r--r--  1 mkandes use300 104K Jun 26  2023 daily_weather.xlsx
--rw-r--r--  1 mkandes use300 123M Jun 26  2023 minute_weather.csv
--rw-r--r--  1 mkandes use300  26M Jun 26  2023 minute_weather.csv.zip
--rw-r--r--  1 mkandes use300 298K Jun 26  2023 winequality-white.xlsx
-drwxr-xr-x 14 mkandes use300   14 Jun 26  2023 gene_info.parquet
--rw-r--r--  1 mkandes use300 140M Jun 14  2024 cuda-samples-v12.2.zip
--rw-r--r--  1 mkandes use300 138M Jun 14  2024 cuda-samples-v12.2.tar.gz
-drwxr-xr-x  6 mkandes use300   12 Jun 14  2024 cuda-samples
--rw-r--r--  1 mkandes use300  165 Jun 23  2025 .llm.yaml
--rw-r--r--  1 mkandes use300  318 Jun 23  2025 .py-light.yml
--rw-r--r--  1 mkandes use300  209 Jun 23  2025 .pytorch-lightning.yaml
--rw-r--r--  1 mkandes use300  334 Aug  4  2025 .ptl.yaml
-drwxr-xr-x  5 mkandes use300    3 Aug  4  2025 .galyleo
-drwxr-xr-x  3 mkandes use300    1 Jun  4 18:18 ..
--rw-r--r--  1 mkandes use300 4.5G Jun  4 18:19 ptl-cuda-12-1.sif
--rw-r--r--  1 mkandes use300 4.8G Jun  4 18:19 ollama-latest-expanse.sif
--rw-r--r--  1 mkandes use300  123 Jun 15 10:12 conda-pyspark-4.1.2.yaml
-drwxr-xr-x  6 mkandes use300   24 Jun 15 18:06 .
--rw-r--r--  1 mkandes use300 1.6G Jun 15 18:07 spark-latest.sif
-[mkandes@login01 ~]$
-```
+- [Exercise 6: Reconfigure your SHELL environment (TO BE UPDATED SOON)](exercises/reconfig-shell-env.md)
+- [Exercise 7: Create a symlink](exercises/create-symlink.md)
 
 ### Exercise 8: Test your new command aliases
 
