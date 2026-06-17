@@ -7,8 +7,6 @@ Next we'll test your direct SSH access to Expanse. Here, please use your preferr
 ssh mkandes@login.expanse.sdsc.edu
 ```
 
-In general, your local SDSC username on Expanse will be the same as your **ACCESS ID (username)**. There are some cases where this may not be true. e.g., if your ACCESS ID already belonged to another user in the local SDSC account database when the account was created. However, your password will *always* be your **ACCESS Password**.
-
 *Output*
 ```
 mkandes@hardtack:~$ ssh mkandes@login.expanse.sdsc.edu
@@ -41,4 +39,6 @@ Last login: Tue Jun 16 09:37:51 2026 from 132.249.233.139
 [mkandes@login01 ~]$
 ```
 
-If you cannot login vis SSH, please try to register (again) for SDSC's 2FA process. See the [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2).
+In general, your local SDSC username on Expanse will be the same as your **ACCESS ID (username)**. There are some cases where this may not be true. e.g., if your ACCESS ID already belonged to another user in the local SDSC account database when the account was created. However, your password will *always* be your **ACCESS Password**.
+
+If cannot login via SSH, please try to register (again) for SDSC's 2FA process. See the [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2). Don't forget to wait at least 15 minutes for the 2FA registration to become activate on Expanse before you attempt to login again. 
