@@ -1,16 +1,14 @@
 # Exercise 1: Login via the Expanse User Portal
 
-<img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
-
 We'll start this session by logging into the web-based **Expanse User Portal** (as shown above).
+
+<img src='../images/expanse-user-portal.png' width='100%' height='100%'/>
 
 - Step 1: Open link in a new tab or window: [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
 
-When you open the link, your browser should be redirected to a Globus login page (as shown below).
+When you open the link, your browser should be redirected to a Globus login page (as shown below). At the Globus login page, you will be asked to **Use your organizational login**. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution.
 
 <img src='../images/globus-login.png' width='100%' height='100%'/>
-
-At the Globus login page, you will be asked to **Use your organizational login**. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution.
 
 - Step 2: Select **ACCESS-CI (formerly XSEDE)** as your organizational login, then click *Continue*
 
