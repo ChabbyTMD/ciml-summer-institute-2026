@@ -8,6 +8,8 @@ We'll start this session by logging into the web-based **Expanse User Portal** (
 
 When you open the link, your browser should be redirected to a Globus login page (as shown below). There you will be asked to **Use your organizational login**. However, you should choose **ACCESS-CI (formerly XSEDE)**  as your organization, not your academic or research institution. Once you've selected **ACCESS-CI (formerly XSEDE)**, click *Continue*. 
 
+- Step 2: Select **ACCESS-CI (formerly XSEDE)** as your organizational login, then click *Continue*
+
 <img src='../images/globus-login.png' width='100%' height='100%'/>
 
 If you happened to already be logged into Globus through your web broswer, you will not be prompted to select an organization. Instead, you'll see a list of your linked Globus identities (as shown below). If you see ** Use my `username@access-ci.org` identity** as an option, click on that one. If you do not see that one, either switch to a new browser window in private mode OR logout of your current Globus account, then attempt your Expanse User Portal login again.
