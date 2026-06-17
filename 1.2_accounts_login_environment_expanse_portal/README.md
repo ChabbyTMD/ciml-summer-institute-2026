@@ -15,6 +15,8 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 
 ## Hands-On Exercises
 
+- [Exercise 1: Python Shell Game](exercises/python-shell-game.md)
+
 ### Exercise 1: Log into Expanse via Open OnDemand
 
 We'll get started by logging into Expanse via the web-based Expanse User Portal at [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
