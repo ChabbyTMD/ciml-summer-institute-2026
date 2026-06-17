@@ -15,7 +15,7 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 
 ## Hands-On Exercises
 
-- [Exercise 1: Python Shell Game](exercises/python-shell-game.md)
+- [Exercise 1: Login via the Expanse User Portal](exercises/login-via-portal.md)
 
 ### Exercise 1: Log into Expanse via Open OnDemand
 
