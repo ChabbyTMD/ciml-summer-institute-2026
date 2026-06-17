@@ -20,7 +20,7 @@ If you were already be logged into Globus through your web broswer, you will not
 
 If you see **Use my `username@access-ci.org` identity** as an option, click on that one. If you do not see that one, either switch to a new browser window in private mode OR logout of your current Globus account, then attempt your Expanse User Portal login again.
 
-- Step 2 (Alternative): Select **Use my `username@access-ci.org` identity** *OR* start over at Step 1 in a private browswer window. 
+- Step 2 (Alternative): Select **Use my `username@access-ci.org` identity** *OR* start over at Step 1 in a private browser window. 
 
 You'll next be redirected to ACCESS-CI, where you will be prompted to enter your **ACCCESS ID** and **ACCESS Password** (as shown below).
 
