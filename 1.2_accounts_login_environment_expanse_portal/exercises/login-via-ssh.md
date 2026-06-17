@@ -38,3 +38,5 @@ Use the following commands to adjust your environment:
 Last login: Tue Jun 16 09:37:51 2026 from 132.249.233.139
 [mkandes@login01 ~]$
 ```
+
+If you cannot login vis SSH, please try to register (again) for SDSC's 2FA process. See the [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2).
