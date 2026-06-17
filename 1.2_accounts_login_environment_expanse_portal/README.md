@@ -18,37 +18,7 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 - [Exercise 1: Login via the Expanse User Portal](exercises/login-via-portal.md)
 - [Exercise 2: Login via SSH](exercises/login-via-ssh.md)
 - [Exercise 3: Check your default SHELL](exercises/check-default-shell.md)
-
-### Exercise 4: Check your allocations on Expanse
-
-Next, let's verify you are listed on the CIML26 allocation (**sds280**) for next week.
-
-*Command*
-```
-expanse-client user -p
-```
-
-*Output*
-```
-[mkandes@login01 ~]$ expanse-client user -p
-
- Resource  expanse 
-
- NAME     STATE  PROJECT  TG PROJECT         USED  AVAILABLE  USED BY PROJECT 
-------------------------------------------------------------------------------
- mkandes  allow  csd403   TG-IBN140002          0   24000000         16700286 
- mkandes  allow  sdp157   TG-TRA260010          5       1000            15453 
- mkandes  allow  sdp173   TG-CIS261077          0      89546               14 
- mkandes  allow  sds166   TG-STA160003          0      47919            36684 
- mkandes  allow  sds173   TG-CCR190013          0      50000              296 
- mkandes  allow  sds184   TG-TRA210003          0       5000              287 
- mkandes  allow  sds196   TG-TRA230015          0     132297            89511 
- mkandes  allow  sds280   TG-NAIRR260138        0       1000             2205 
- mkandes  allow  use300                   2729345    5050000          4688140 
-[mkandes@login01 ~]$
-```
-
-If you are not listed on the allocation, please let us know.
+- [Exercise 4: Check your allocation access](exercises/check-alloc-access.md)
 
 ### Exercise 5: Clone the CIML26 GitHub repository to your HOME directory
 
