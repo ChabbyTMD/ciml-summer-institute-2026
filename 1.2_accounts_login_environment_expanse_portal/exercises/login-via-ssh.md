@@ -43,4 +43,4 @@ In general, your local SDSC username on Expanse will be the same as your **ACCES
 
 If you cannot login via SSH to Expanse, please try to register (again) for SDSC's 2FA process. See the [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2) for details. And don't forget to wait at least 15 minutes for the 2FA registration to activate on Expanse before you attempt your next login. 
 
-If you continue to have SSH access issues, please let us know where you're getting stuck in the Slack channel. 
+If you continue to have SSH access issues, please let us know in the Slack channel. 
