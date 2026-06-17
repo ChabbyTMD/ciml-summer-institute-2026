@@ -1,6 +1,6 @@
-# Exercise 9: Update your copy of the GitHub repository
+# Exercise 9: The `git pull` command
 
-Navigate to your copy of the GitHub repository on Expanse, which should be located at the top-level of your `$HOME` directory at `~/ciml-summer-institute-2026`, then run the `git pull` command to update your copy with the latest changes from your instructors. 
+To update your copy of the GitHub repository, navigate to the `~/ciml-summer-institute-2026` direcotry and then run the `git pull` command. This will download all of the latest update from your instructors. 
 
 *Command*
 ```
