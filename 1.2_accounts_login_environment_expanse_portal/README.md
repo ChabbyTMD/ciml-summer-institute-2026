@@ -16,57 +16,8 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 ## Hands-On Exercises
 
 - [Exercise 1: Login via the Expanse User Portal](exercises/login-via-portal.md)
+- [Exercise 2: Login via SSH](exercises/login-via-ssh.md)
 
-### Exercise 1: Log into Expanse via Open OnDemand
-
-We'll get started by logging into Expanse via the web-based Expanse User Portal at [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
-
-You'll first be prompted to choose your organization. Choose **ACCESS-CI** as your organizzation, not your home institution. Then input your ACCESS-CI username and password.
-
-Upon a successful login, you should be presented with the Expanse User Portal dashboard.
-
-Click on the Expanse Shell Access app to get a web-based interactive login shell. 
-
-### Exercise 2: Log into Expanse via SSH
-
-Next we'll test your direct SSH access to Expanse. Use your preferred SSH client to login.
-
-*Command*
-```
-ssh mkandes@login.expanse.sdsc.edu
-```
-
-
-*Output*
-```
-mkandes@hardtack:~$ ssh mkandes@login.expanse.sdsc.edu
-(mkandes@login.expanse.sdsc.edu) TOTP code for mkandes: 201505
-Welcome to Bright release         9.0
-
-                                                         Based on Rocky Linux 8
-                                                                    ID: #000002
-
---------------------------------------------------------------------------------
-
-                                 WELCOME TO
-                  _______  __ ____  ___    _   _______ ______
-                 / ____/ |/ // __ \/   |  / | / / ___// ____/
-                / __/  |   // /_/ / /| | /  |/ /\__ \/ __/
-               / /___ /   |/ ____/ ___ |/ /|  /___/ / /___
-              /_____//_/|_/_/   /_/  |_/_/ |_//____/_____/
-
---------------------------------------------------------------------------------
-
-Use the following commands to adjust your environment:
-
-'module avail'            - show available modules
-'module add <module>'     - adds a module to your environment for this session
-'module initadd <module>' - configure module to be loaded at every login
-
--------------------------------------------------------------------------------
-Last login: Tue Jun 16 09:37:51 2026 from 132.249.233.139
-[mkandes@login01 ~]$
-```
 
 If you cannot login, try to register (again) for 2FA. See the [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2).
 
