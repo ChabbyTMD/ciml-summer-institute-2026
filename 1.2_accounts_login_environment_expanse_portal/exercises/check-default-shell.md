@@ -14,4 +14,4 @@ echo $SHELL
 [mkandes@login01 ~]$
 ```
 
-Do you have a BASH shell? If not, please let us know in the Slack channel. 
+Do you have a `bash` shell? If not, please let us know in the Slack channel. 
