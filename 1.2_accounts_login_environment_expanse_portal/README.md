@@ -18,9 +18,6 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 - [Exercise 1: Login via the Expanse User Portal](exercises/login-via-portal.md)
 - [Exercise 2: Login via SSH](exercises/login-via-ssh.md)
 
-
-If you cannot login, try to register (again) for 2FA. See the [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html#narrow-wysiwyg-2).
-
 ### Exercise 3: Check your default SHELL on Expanse
 
 Once logged into Expanse either via the User Portal or SSH, please check your default SHELL.
