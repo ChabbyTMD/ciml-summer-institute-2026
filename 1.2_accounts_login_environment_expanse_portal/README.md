@@ -17,24 +17,7 @@ Everything you need to know about getting your account setup to use [Expanse](ht
 
 - [Exercise 1: Login via the Expanse User Portal](exercises/login-via-portal.md)
 - [Exercise 2: Login via SSH](exercises/login-via-ssh.md)
-
-### Exercise 3: Check your default SHELL on Expanse
-
-Once logged into Expanse either via the User Portal or SSH, please check your default SHELL.
-
-*Command*
-```
-echo $SHELL
-```
-
-*Output*
-```
-[mkandes@login01 ~]$ echo $SHELL
-/bin/bash
-[mkandes@login01 ~]$
-```
-
-Do you have a BASH shell?
+- [Exercise 3: Check your default SHELL](exercises/check-default-shell.md)
 
 ### Exercise 4: Check your allocations on Expanse
 
