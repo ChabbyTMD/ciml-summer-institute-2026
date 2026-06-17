@@ -1,6 +1,6 @@
 # Exercise 1: Login via the Expanse User Portal
 
-We'll start this session by logging into the web-based **Expanse User Portal** (as shown below).
+We'll start this session by logging into the web-basedExpanse User Portal (as shown below).
 
 - Step 1: Open link in new **private** (or **incognito**) browser window : [https://portal.expanse.sdsc.edu](https://portal.expanse.sdsc.edu).
 
