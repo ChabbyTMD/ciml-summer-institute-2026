@@ -46,7 +46,7 @@ cp .bashrc ~/.bashrc
 cp .bash_profile ~/.bash_profile
 ```
 
-Now log out then back in ...
+Now log out then back in to reconfigure your shell environment. 
 
 *Output*
 ```
