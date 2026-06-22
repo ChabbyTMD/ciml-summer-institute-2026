@@ -34,6 +34,18 @@ mv ~/.bashrc ~/.bashrc.bak
 mv ~/.bash_profile ~/.bash_profile.bak
 ```
 
+Once you have a backup of you `~/.bashrc` and `~/.bash_profile` files, cp the ones provided here into your HOME directory.
+
+*Command*
+```
+cp .bashrc ~/.bashrc
+```
+
+*Command*
+```
+cp .bash_profile ~/.bash_profile
+```
+
 Now log out then back in ...
 
 *Output*
