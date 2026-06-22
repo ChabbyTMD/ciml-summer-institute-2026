@@ -22,36 +22,7 @@ drwxr-xr-x  4 mkandes use300    7 Jun 22 16:13 .
 [mkandes@login02 1.2_accounts_login_environment_expanse_portal]$
 ```
 
-*Command*
-```
-chmod +x backup-your-bash-env.sh
-```
 
-*Output*
-```
-[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ chmod +x backup-your-bash-env.sh
-[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ ls
-backup-your-bash-env.sh  load-ciml26-bash-env.sh  README.md  reload-your-bash-env.sh  remove-ciml26-bash-env.sh
-[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
-```
-
-*Command*
-```
-./backup-your-bash-env.sh
-```
-
-*Command*
-```
-chmod +x load-ciml26-bash-env.sh
-```
-
-*Output*
-```
-[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ ./load-ciml26-bash-env.sh 
-.bashrc: OK
-.bash_profile: OK
-[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
-```
 
 Now log out then back in ...
 
