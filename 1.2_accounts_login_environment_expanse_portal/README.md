@@ -20,9 +20,9 @@ Everything you need to know about getting your account setup on [Expanse](https:
 - [Exercise 3: Check your default SHELL](exercises/check-default-shell.md)
 - [Exercise 4: Check your allocation access](exercises/check-alloc-access.md)
 - [Exercise 5: Clone the GitHub repository](exercises/clone-github-repo.md)
-- [Exercise 6: *Reconfigure your SHELL environment (TO BE FIXED + UPDATED SOON)*](exercises/reconfig-shell-env.md)
+- [Exercise 6: Reconfigure your SHELL environment](exercises/reconfig-shell-env.md)
 - [Exercise 7: Create a symlink using a new environment variable](exercises/create-symlink.md)
-- [Exercise 8: *Test your new command aliases (TO BE FIXED + UPDATED SOON)*](exercises/test-new-aliases.md)
+- [Exercise 8: Test your new command aliases](exercises/test-new-aliases.md)
 - [Exercise 9: The `git pull` command](exercises/git-pull-repo.md)
 
 ## Additional References
