@@ -2,14 +2,24 @@
 
 Navigate to the Session 1.2. material in the repo on Expanse. 
 
+*Command*
+```
+cd ~/ciml-summer-institute-2026/1.2_accounts_login_environment_expanse_portal/
+```
+
 *Output*
 ```
-[mkandes@login01 ~]$ cd ciml-summer-institute-2026/
-[mkandes@login01 ciml-summer-institute-2026]$ cd 1.2_accounts_login_environment_expanse_portal/
-[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$ ls
-backup-your-bash-env.sh  README.md                remove-ciml26-bash-env.sh
-load-ciml26-bash-env.sh  reload-your-bash-env.sh
-[mkandes@login01 1.2_accounts_login_environment_expanse_portal]$
+[mkandes@login01 ~]$ cd ~/ciml-summer-institute-2026/1.2_accounts_login_environment_expanse_portal/
+[mkandes@login02 1.2_accounts_login_environment_expanse_portal]$ ls -lahtr
+total 149K
+-rw-r--r--  1 mkandes use300  141 Jun 22 16:00 .bash_profile
+-rw-r--r--  1 mkandes use300 2.5K Jun 22 16:00 README.md
+drwxr-xr-x  2 mkandes use300   11 Jun 22 16:00 exercises
+drwxr-xr-x  2 mkandes use300   14 Jun 22 16:00 images
+drwxr-xr-x 23 mkandes use300   27 Jun 22 16:00 ..
+-rw-r--r--  1 mkandes use300 2.9K Jun 22 16:12 .bashrc
+drwxr-xr-x  4 mkandes use300    7 Jun 22 16:13 .
+[mkandes@login02 1.2_accounts_login_environment_expanse_portal]$
 ```
 
 *Command*
