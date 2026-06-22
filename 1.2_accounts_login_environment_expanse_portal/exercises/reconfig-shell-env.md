@@ -22,7 +22,17 @@ drwxr-xr-x  4 mkandes use300    7 Jun 22 16:13 .
 [mkandes@login02 1.2_accounts_login_environment_expanse_portal]$
 ```
 
+Make a back up of your own `~/.bashrc` and `~/.bash_profile` files.
 
+*Command*
+```
+mv ~/.bashrc ~/.bashrc.bak
+```
+
+*Command*
+```
+mv ~/.bash_profile ~/.bash_profile.bak
+```
 
 Now log out then back in ...
 
