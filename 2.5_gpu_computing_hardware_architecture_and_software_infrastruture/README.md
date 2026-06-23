@@ -19,12 +19,12 @@ We will log into an Expanse GPU node, compile and test some examples from the Nv
 
 First, log onto Expanse using your `train` training account. You can do this either via the Expanse user portal or simply using ssh:
 ```
-ssh trainXXX@login.expanse.sdsc.edu
+ssh user@login.expanse.sdsc.edu
 ```
 
 Next we will use the alias for the `srun` command that is defined in your `.bashrc` file to access a single GPU on a shared GPU node:
 ```
-srun-gpu-shared
+srun-nairr-gpu-shared
 ```
 
 Once we are on a GPU node, we load the default modules for the GPU nodes to gain access to the GPU software stack. We will also load the CUDA toolkit:
@@ -49,28 +49,28 @@ We can use the `nvidia-smi` command to check for available GPUs and which proces
 ```
 nvidia-smi
 ```
-You should have a single V100 GPU available and there should be no processes running:
+You should have a single H100 GPU available and there should be no processes running:
 ```
-Mon Jun 27 08:39:33 2022       
-+-----------------------------------------------------------------------------+
-| NVIDIA-SMI 510.39.01    Driver Version: 510.39.01    CUDA Version: 11.6     |
-|-------------------------------+----------------------+----------------------+
-| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
-|                               |                      |               MIG M. |
-|===============================+======================+======================|
-|   0  Tesla V100-SXM2...  On   | 00000000:18:00.0 Off |                    0 |
-| N/A   39C    P0    41W / 300W |      0MiB / 32768MiB |      0%      Default |
-|                               |                      |                  N/A |
-+-------------------------------+----------------------+----------------------+
-                                                                               
-+-----------------------------------------------------------------------------+
-| Processes:                                                                  |
-|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
-|        ID   ID                                                   Usage      |
-|=============================================================================|
-|  No running processes found                                                 |
-+-----------------------------------------------------------------------------+
+Tue Jun 23 11:23:06 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4C:00.0 Off |                  Off |
+| N/A   30C    P0             69W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
 ```
 
 ### Copy the Nvidia CUDA samples into the local scratch directory
@@ -80,7 +80,7 @@ We will first copy the Nvidia CUDA samples from the shared CIML Summer Institute
 Instead of using the home directory we will use the node-local scratch directory. Data in this directory will be purged upon job completion but this is OK as we do not need to retain the toolkit samples. Working in the the scratch directory will be very fast. This is also important when you operate with datasets and/or have heavy I/O during your ML applications.
 ```
 cd /scratch/$USER/job_$SLURM_JOB_ID
-tar xvf $CIML25_DATA_DIR/cuda-samples-v12.2.tar.gz
+tar xvf $CIML26_DATA_DIR/cuda-samples-v12.2.tar.gz
 ```
 You can look into the data directory to see if there other samples that are of interest to you. The CUDA samples have been obtained from [Nvidia's Github repository](https://github.com/nvidia/cuda-samples).
 
@@ -121,7 +121,7 @@ You now should have an executable `deviceQuery` in the directory. If you execute
 ```
 ./deviceQuery
 ```
-you should see an output with details about the GPU that is available. In our case on Expanse it is a Tesla V100-SXM2-32GB GPU:
+you should see an output with details about the GPU that is available. In our case on Expanse it is a NVIDIA H100 80GB HBM3 GPU:
 ```
 ./deviceQuery Starting...
 
@@ -129,21 +129,21 @@ you should see an output with details about the GPU that is available. In our ca
 
 Detected 1 CUDA Capable device(s)
 
-Device 0: "Tesla V100-SXM2-32GB"
-  CUDA Driver Version / Runtime Version          11.6 / 11.2
-  CUDA Capability Major/Minor version number:    7.0
-  Total amount of global memory:                 32511 MBytes (34089926656 bytes)
-  (080) Multiprocessors, (064) CUDA Cores/MP:    5120 CUDA Cores
-  GPU Max Clock rate:                            1530 MHz (1.53 GHz)
-  Memory Clock rate:                             877 Mhz
-  Memory Bus Width:                              4096-bit
-  L2 Cache Size:                                 6291456 bytes
+Device 0: "NVIDIA H100 80GB HBM3"
+  CUDA Driver Version / Runtime Version          13.0 / 12.2
+  CUDA Capability Major/Minor version number:    9.0
+  Total amount of global memory:                 81079 MBytes (85017624576 bytes)
+  (132) Multiprocessors, (128) CUDA Cores/MP:    16896 CUDA Cores
+  GPU Max Clock rate:                            1980 MHz (1.98 GHz)
+  Memory Clock rate:                             2619 Mhz
+  Memory Bus Width:                              5120-bit
+  L2 Cache Size:                                 52428800 bytes
   Maximum Texture Dimension Size (x,y,z)         1D=(131072), 2D=(131072, 65536), 3D=(16384, 16384, 16384)
   Maximum Layered 1D Texture Size, (num) layers  1D=(32768), 2048 layers
   Maximum Layered 2D Texture Size, (num) layers  2D=(32768, 32768), 2048 layers
   Total amount of constant memory:               65536 bytes
   Total amount of shared memory per block:       49152 bytes
-  Total shared memory per multiprocessor:        98304 bytes
+  Total shared memory per multiprocessor:        233472 bytes
   Total number of registers available per block: 65536
   Warp size:                                     32
   Maximum number of threads per multiprocessor:  2048
@@ -157,16 +157,17 @@ Device 0: "Tesla V100-SXM2-32GB"
   Integrated GPU sharing Host Memory:            No
   Support host page-locked memory mapping:       Yes
   Alignment requirement for Surfaces:            Yes
-  Device has ECC support:                        Enabled
+  Device has ECC support:                        Disabled
   Device supports Unified Addressing (UVA):      Yes
   Device supports Managed Memory:                Yes
   Device supports Compute Preemption:            Yes
   Supports Cooperative Kernel Launch:            Yes
   Supports MultiDevice Co-op Kernel Launch:      Yes
+  Device PCI Domain ID / Bus ID / location ID:   0 / 76 / 0
   Compute Mode:
      < Default (multiple host threads can use ::cudaSetDevice() with device simultaneously) >
 
-deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 11.6, CUDA Runtime Version = 11.2, NumDevs = 1
+deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 13.0, CUDA Runtime Version = 12.2, NumDevs = 1
 Result = PASS
 ```
 
@@ -186,12 +187,12 @@ We now have the executable `matrixMul` available. If we execute it,
 a matrix multiplication will be performed and the performance reported
 ```
 [Matrix Multiply Using CUDA] - Starting...
-GPU Device 0: "Volta" with compute capability 7.0
+GPU Device 0: "Hopper" with compute capability 9.0
 
 MatrixA(320,320), MatrixB(640,320)
 Computing result using CUDA Kernel...
 done
-Performance= 2796.59 GFlop/s, Time= 0.047 msec, Size= 131072000 Ops, WorkgroupSize= 1024 threads/block
+Performance= 6102.96 GFlop/s, Time= 0.021 msec, Size= 131072000 Ops, WorkgroupSize= 1024 threads/block
 Checking computed result for correctness: Result = PASS
 
 NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
@@ -210,14 +211,13 @@ If we run the executable
 ```
 we should get following output:
 ```
-[Matrix Multiply CUBLAS] - Starting...
-GPU Device 0: "Volta" with compute capability 7.0
+GPU Device 0: "Hopper" with compute capability 9.0
 
-GPU Device 0: "Tesla V100-SXM2-32GB" with compute capability 7.0
+GPU Device 0: "NVIDIA H100 80GB HBM3" with compute capability 9.0
 
 MatrixA(640,480), MatrixB(480,320), MatrixC(640,320)
 Computing result using CUBLAS...done.
-Performance= 7032.97 GFlop/s, Time= 0.028 msec, Size= 196608000 Ops
+Performance= 14103.60 GFlop/s, Time= 0.014 msec, Size= 196608000 Ops
 Computing result using host CPU...done.
 Comparing CUBLAS Matrix Multiply with CPU results: PASS
 
