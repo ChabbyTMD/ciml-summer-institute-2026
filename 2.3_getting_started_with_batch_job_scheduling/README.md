@@ -9,9 +9,7 @@
 ### Reading and Presentations:
 
 * **Lecture material:**
-   * [COMPLECS: Batch Computing 1: Working with the Linux Scheduler](https://education.sdsc.edu/training/interactive/?id=202502-Batch-Computing-Part-1)
-   * [COMPLECS: Batch Computing 2: Getting Started with Batch Job Scheduling - Slurm Edition](https://education.sdsc.edu/training/interactive/?id=202403-Batch-Computing-Part-1)
-   * [COMPLECS: Batch Computing 3: High-Throughput and Many-Task Computing - Slurm Edition](https://education.sdsc.edu/training/interactive/?id=202410-High-Throughput%20and%20Many-Task%20Computing-%20Slurm%20Edition)
+   * [COMPLECS: Batch Computing 2: Getting Started with Batch Job Scheduling - Slurm Edition](https://drive.google.com/file/d/13oLKh71zYmUz9sI4H7Aj0jU0XuUrcBKZ/view?usp=drive_link)
     
 * **Source Code/Examples:**
    * https://github.com/sdsc-complecs/batch-computing
