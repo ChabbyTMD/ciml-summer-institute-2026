@@ -9,10 +9,6 @@
 ### Reading and Presentations:
 
 * **Lecture material:**
-   * [COMPLECS: Data Management 1: Data Storage and File Systems](https://education.sdsc.edu/training/interactive/?id=202505-Data-Storage-and-File-Systems)
-   * [COMPLECS: Data Management 2: Data Transfer](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.2_data_management)
-
-* **Source Code/Examples:**
-   * [Data Management: Or how (not) to handle your data in an HPC environment](https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/2.5_data_management)
+   * [COMPLECS: Data Management](https://github.com/sdsc-complecs/data-management)
 
 [Back to Top](#top)
