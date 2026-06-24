@@ -9,7 +9,7 @@
 ### Reading and Presentations:
 
 * **Source Code/Examples:**
-  * [df-parallel](https://github.com/sbl-sdsc/df-parallel.git)
+  * [df-parallel](https://github.com/mkandes/df-parallel)
 
 -----
 
