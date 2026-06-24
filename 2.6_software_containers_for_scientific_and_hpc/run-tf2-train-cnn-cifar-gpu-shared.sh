@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 #SBATCH --job-name=tf2-train-cnn-cifar-gpu-shared
-#SBATCH --account=gue998
-#SBATCH --reservation=ciml25gpu
-#SBATCH --partition=gpu-shared
-#SBATCH --qos=gpu-shared-eot
+#SBATCH --account=sds280
+#SBATCH --reservation=ciml26gpu
+#SBATCH --partition=nairr-gpu-shared
+#SBATCH --qos=nairr-gpu-shared-eot
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=10
 #SBATCH --cpus-per-task=1
@@ -16,9 +16,9 @@
 declare -xr LOCAL_SCRATCH_DIR="/scratch/${USER}/job_${SLURM_JOB_ID}"
 declare -xr LUSTRE_PROJECTS_DIR="/expanse/lustre/projects/${SLURM_JOB_ACCOUNT}/${USER}"
 declare -xr LUSTRE_SCRATCH_DIR="/expanse/lustre/scratch/${USER}/temp_project"
-declare -xr SINGULARITY_CONTAINER_DIR='/cm/shared/apps/containers/singularity'
 
 declare -xr SINGULARITY_MODULE='singularitypro/3.11'
+declare -xr SINGULARITY_CONTAINER_DIR='/cm/shared/apps/containers/singularity'
 
 module purge
 module load "${SINGULARITY_MODULE}"
