@@ -120,6 +120,3 @@ The dataframe notebooks in this repo have already been parameterized, however to
    > Which dataframe libraries perform the best?
    
    > Which file format is most efficient?
-
-
-[Back to Top](#top)
