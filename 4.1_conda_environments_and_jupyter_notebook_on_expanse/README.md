@@ -6,11 +6,6 @@
 
 **Presented by:** Marty Kandes  ( mkandes  @  ucsd.edu ) 
 
-### Reading and Presentations:
-
-* **Source Code/Examples:**
-  * [df-parallel](https://github.com/mkandes/df-parallel.git)
-
 -----
 
 ## TASK 1: Launch Jupyter Lab on Expanse using a CONDA environment
@@ -20,14 +15,14 @@ For this task you will launch a Jupyter Lab session on an Expanse GPU node using
 
 2. Clone the Git repository df-parallel
 ```
-git clone https://github.com/sbl-sdsc/df-parallel.git
+git clone https://github.com/mkandes/df-parallel.git
 ```
   
 3. Launch Jupyter Lab using the Galyleo script on a GPU node
 
    This script will generate a URL for your Jupyter Lab session.
 ```
-galyleo launch --account ${CIML26_ACCOUNT} --reservation ${CIML26_RES_GPU} --qos ${CIML26_QOS_GPU} --partition gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 01:30:00 --conda-yml "${HOME}/df-parallel/environment-gpu.yml" --mamba --cache --quiet
+galyleo launch --account ${CIML26_ACCOUNT} --reservation ${CIML26_RES_GPU} --qos ${CIML26_QOS_GPU} --partition nairr-gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 01:30:00 --conda-yml "${HOME}/df-parallel/environment-gpu.yml" --cache --quiet
 ```
 
 > The arguments ```--reservation ${CIML26_RES_GPU} --qos ${CIML26_QOS_GPU}``` are only active during the CIML workshop. Remove these arguments when running this example outside of the workshop and specify your project account number.
@@ -120,6 +115,3 @@ The dataframe notebooks in this repo have already been parameterized, however to
    > Which dataframe libraries perform the best?
    
    > Which file format is most efficient?
-
-
-[Back to Top](#top)
