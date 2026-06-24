@@ -1,10 +1,10 @@
 # Session 4.1 CONDA Environments and Jupyter Notebook on Expanse: Scalable & Reproducible Data Exploration and ML  
 
-**Date:** Thursday, June 25, 2026
+**Date:** Thursday, June 26, 2025
 
 **Summary**: Set up reproducible and transferable software environments and scale up calculations to large datasets using parallel computing.
 
-**Presented by:** [Marty Kandes](https://www.sdsc.edu/research/experts/kandes-marty.html)  ( mkandes  @  ucsd.edu ) 
+**Presented by:** Marty Kandes  ( mkandes  @  ucsd.edu ) 
 
 ### Reading and Presentations:
 
