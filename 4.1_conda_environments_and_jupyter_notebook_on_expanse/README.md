@@ -6,11 +6,6 @@
 
 **Presented by:** Marty Kandes  ( mkandes  @  ucsd.edu ) 
 
-### Reading and Presentations:
-
-* **Source Code/Examples:**
-  * [df-parallel](https://github.com/mkandes/df-parallel.git)
-
 -----
 
 ## TASK 1: Launch Jupyter Lab on Expanse using a CONDA environment
