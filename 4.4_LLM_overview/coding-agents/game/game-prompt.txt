@@ -1,0 +1,11 @@
+You are writing a single Python script.
+Task: Write a complete Python script that implements a number guessing game with these requirements:
+- The computer picks a random number from 1 to 100.
+- The player types a guess and presses Enter to submit.
+- Show whether the guess is too high, too low, or correct.
+- Count and display guesses made.
+- When correct, ask if the player wants to play again and reset if yes.
+- All code must be in a single file named game.py.
+- Do not create any other files.
+
+Now generate game.py in the current directory.

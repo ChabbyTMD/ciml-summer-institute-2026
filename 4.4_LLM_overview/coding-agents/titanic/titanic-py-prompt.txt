@@ -1,0 +1,29 @@
+Write a Python script for exploratory data analysis on the CSV file named 
+'titanic.csv'. Use # %% to mark code cells and # %% [markdown] followed by 
+a docstring to mark markdown cells, so the script can be converted to a 
+Jupyter notebook with jupytext.
+
+Include:
+- A markdown cell with a title
+- Imports for pandas, numpy, matplotlib, seaborn, plotly (with pip install 
+  fallbacks)
+- Load titanic.csv, display first 10 rows
+- Missing value counts and percentages; markdown cell documenting cleaning 
+  choices
+- Type conversions for Pclass, Sex, Survived with documentation
+- 4 visualizations to help understand this dataset, each preceded by a markdown cell cell describing the visualization and what to look for.; use plt.show() or fig.show() with no arguments
+
+
+Final checks:
+- Check that the code can be executed end-to-end without errors.
+- Before writing the final output, mentally trace through every code cell in 
+  order and confirm: (a) all variable names are consistent in case, (b) no 
+  Python syntax errors exist, (c) no duplicate keyword arguments are passed to 
+  any function, (d) no markdown-formatted text appears inside code cells, and 
+  (e) all function calls use valid argument signatures.
+- Ensure that all plots render inline (use plt.show() or fig.show() with no 
+  arguments).
+- Ensure that the notebook is properly formatted JSON for .ipynb.
+
+Save the notebook as titanic-eda.py.
+

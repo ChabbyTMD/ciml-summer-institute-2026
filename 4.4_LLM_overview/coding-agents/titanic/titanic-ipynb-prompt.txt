@@ -1,0 +1,27 @@
+Write a single runnable Jupyter notebook file that performs exploratory data 
+analysis on a CSV file named 'titanic.csv'.
+
+Requirements:
+- The notebook must begin with a short title markdown cell and an imports cell 
+  that installs (if missing) and imports: pandas, numpy, matplotlib, seaborn, plotly.
+- Load titanic.csv into a DataFrame and display the first 10 rows.
+- Produce a table of missing-value counts and percentages for every column; add 
+  a markdown cell that documents the cleaning choices made.
+- Convert Pclass, Sex, and Survived to appropriate types and document conversions.
+- Create analyses and visualizations that would be helpful to understand this 
+  dataset. Each visualization must be in its own code cell and preceded by a 
+  markdown cell describing the visualization and what to look for.
+
+Final checks:
+- Check that the code can be executed end-to-end without interactive input and 
+  without errors.
+- Before writing the final output, mentally trace through every code cell in 
+  order and confirm: (a) all variable names are consistent in case, (b) no 
+  Python syntax errors exist, (c) no duplicate keyword arguments are passed to 
+  any function, (d) no markdown-formatted text appears inside code cells, and 
+  (e) all function calls use valid argument signatures.
+- Ensure that all plots render inline (use plt.show() or fig.show() with no 
+  arguments).
+- Ensure that the notebook is properly formatted JSON for .ipynb.
+
+Save the notebook as titanic-eda-notebook.ipynb.
