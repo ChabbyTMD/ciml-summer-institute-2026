@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=pyt-cpu
-#SBATCH --account=use300   #sds280
+#SBATCH --account=sds280
 #SBATCH --partition=compute
 #SBATCH --nodes=1  #try 1 or 2  
 #SBATCH --ntasks-per-node=8 #8 or 16 or 32 etc..  
@@ -8,8 +8,8 @@
 #SBATCH --mem=243G   
 #SBATCH --time=00:35:00
 #SBATCH --output=slurm.cpuNx8.%x.%N.%j.out
-#  #SBATCH --reservation=ciml26cpu
-#  #SBATCH --qos=normal-eot
+#SBATCH --reservation=ciml26cpu
+#SBATCH --qos=normal-eot
 
 module reset
 module load slurm  
