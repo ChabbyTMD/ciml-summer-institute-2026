@@ -1,0 +1,30 @@
+name: hf-t4
+
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+
+dependencies:
+  - pytorch=2.10.0
+  - torchvision=0.25.0
+  - torchaudio=2.10.0
+  - pytorch-cuda=12.1
+  - lightning=2.5.0
+  - jupyterlab
+  - pandas
+  - scikit-learn
+  - huggingface_hub[cli]
+  - transformers
+  - accelerate
+  - datasets
+  - langchain
+  - sentence-transformers
+  - langchain-community
+  - bitsandbytes
+  - pypdf
+  - faiss-gpu
+  - pydantic
+  - langchain-huggingface
+  - unstructured
+
